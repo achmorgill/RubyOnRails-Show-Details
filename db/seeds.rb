@@ -6,8 +6,11 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Show.delete_all
+
 Show.create( { title: "Only Fools and Horses", series: 10, description: "The story of Rodney and Derek Trotter, a couple of chancers", image: "del.jpg", programmeID: "A001"})
+
 Show.create( { title: "Not Going Out", series: 4, description: "The story of Lee and his flatmate Lucy", image: "lee.jpg", programmeID: "A002"})
+
 Show.create( { title: "Mash", series: 3, description: "A comedy about a group of medics during the vietnam war", image: "mash.jpg", programmeID: "A003"})
 
 
